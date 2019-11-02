@@ -96,6 +96,7 @@ class Header extends Component {
                                 {t('shared.header.homeAppliances')}
                             </Link>
                             <a class="main-nav__item" href="/meijia.html">美家</a>
+                            <a class="main-nav__item" href="/CustomService.html"> 定制服务</a>
                             <Link className="main-nav__item" to="/list/sink">
                                 {t('shared.header.sink')}
                             </Link>
