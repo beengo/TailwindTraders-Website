@@ -9,6 +9,14 @@
     padding-left: 5%;
     padding-right: 5%;
     overflow: hidden;
+    z-index: 9999;
+
+    .mj-logo {
+        z-index: 99;
+        color: #fff;
+        font-size: 28px;
+        text-decoration: none;
+    }
 
     svg {
         fill: $color-primary;
@@ -64,7 +72,7 @@
     }
 
     &:not(.is-opened) .main-nav__item {
-        color: $color-text-primary;
+        color: #fff;
     }
 
     &.is-opened {
@@ -103,7 +111,7 @@
 
     &__item {
         @include text-xxs();
-        color: $color-link;
+        color: #fff;
         display: block;
         text-decoration: none;
         text-transform: uppercase;
