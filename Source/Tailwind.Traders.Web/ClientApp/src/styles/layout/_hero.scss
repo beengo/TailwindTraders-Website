@@ -10,7 +10,7 @@
     .mj-buttons {
         position: absolute;
         top: 20%;
-        left: 40%;
+        left: calc(50% - 170px);
         z-index: 1000;
         p {
             color: #fff;
